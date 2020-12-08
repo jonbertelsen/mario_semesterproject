@@ -12,7 +12,6 @@ public class Database {
     private final String URL;
 
     public Database(String user, String password, String url) {
-        this.connection = connection;
         USER = user;
         PASSWORD = password;
         URL = url;
